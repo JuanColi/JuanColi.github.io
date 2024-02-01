@@ -1,0 +1,44 @@
+header{
+
+    background-attachment: fixed;
+    background-color: rgb(7, 138, 138);
+    color: whitesmoke;
+    border: 4em;
+    border-color: aqua;
+    height: 5em;
+    box-sizing: border-box;
+    border-radius: 5em;
+    align-items: center;
+    padding: 0 4rem;
+    border: 2px solid whitesmoke;
+  }
+  header li{
+
+    display: inline-block;
+    margin-right: 20px;
+    color : whitesmoke;
+    padding: .5rem;
+
+  }
+  body{
+
+    background-color: cadetblue;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 4em;
+    border-color: aqua;
+    height: 5em;
+    box-sizing: border-box;
+    display: flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+
+
+  }
+
+  li>a{
+
+    color: whitesmoke;
+
+  }
